@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- Google Fonts -->
     <!-- Link Files -->
@@ -16,7 +17,69 @@
     <link rel="stylesheet" href="src/output.css">
     <!-- Link Files -->
 </head>
-<body>
-    
+
+<body class="font-Poppins bg-body text-white">
+    <!-- Navbar -->
+
+    <section id="navbar">
+        <div class="max-w-[1170px] m-auto">
+            <div class="flex justify-between items-center py-7.5">
+                <ul class="flex">
+                    <li><a class="text-[14px] pr-10" href="#">Features</a></li>
+                    <li><a class="text-[14px] pr-10" href="#">Catalog</a></li>
+                    <li><a class="text-[14px] pr-10" href="#">Pages</a></li>
+                </ul>
+                <div class="ml-15">
+                    <img src="assets/logo.svg" alt="">
+                </div>
+                <div class="flex justify-between items-center ">
+                    <ul class="flex mr-5">
+                        <li><a class="text-[14px] px-5" href="#">Blogs</a></li>
+                        <li><a class="text-[14px] px-5" href="#">Contact</a></li>
+                    </ul>
+                    <label
+                        class="input w-[240px] bg-transparent border border-white rounded-full flex items-center px-4">
+                        <input type="search" class="w-full placeholder:italic" placeholder="I am looking for..." />
+                        <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                                stroke="currentColor">
+                                <circle cx="11" cy="11" r="6"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </g>
+                        </svg>
+                    </label>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Navbar -->
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="max-w-[1170px] m-auto py-10">
+            <div class="relative flex justify-center items-center">
+                <h1 class="uppercase mask-x-from-70% opacity-[55%] mask-x-to-100% font-bold text-[180px]">BlockChain
+                </h1>
+                <img class="absolute" src="" alt="">
+            </div>
+            <div class="flex justify-between item-center">
+                <h4 class="text-[40px] font-light"> Secure. Scalable. <br> Limitless.</h4>
+                <div class="w-[30%]">
+                    <p class="text-[16px] font-normal">we push the boundaries of what's possible with blockchain
+                        technology. Designed for maximum
+                        security.
+                    </p>
+                    <button class="bg-body border-1 px-8 py-2 drop-shadow-xl mt-5 rounded-[10px] border-gray-500"
+                        type="button">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner -->
+
+
 </body>
+
 </html>
